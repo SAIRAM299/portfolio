@@ -48,8 +48,8 @@ z-index:100;
 }
 
 .dubby{
-    width:450px;
-    height:500px;
+    width:300px;
+    height:380px;
     background:black;
     border: 25px solid #00abf0;
     outline: 25px solid black;
@@ -139,5 +139,5 @@ z-index:100;
 
  .dubby img{
     position: relative;
-    max-height:400px;
+    max-height:250px;
  }
