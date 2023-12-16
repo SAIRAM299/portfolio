@@ -8,11 +8,10 @@ import linkin from './assets/lin.png'
 
 export default function Welcome(){
     return (
-        <div>
-
-            <header class="head">
-       <a href="" class="sai"> <h1>SAIRAM P</h1></a>
-        <nav class="navi">
+        <div className='contain'>
+            <header className="head">
+       <a href="" className="sai"> <h1>SAIRAM P</h1></a>
+        <nav className="navi">
             <a href="" class="homy">HOME</a>
             <a href="">ABOUT ME</a>
             <a href="">PROJECTS</a>
@@ -21,16 +20,16 @@ export default function Welcome(){
         </nav>
     </header>
 
-    <section class="home">
-        <div class="dubby"><img src={img}/></div>
+    <section className="home">
+        <div className="dubby"><img src={img}/></div>
 
-        <div class="welcome">
+        <div className="welcome">
             <h1>Hi, I'M SAIRAM</h1>
             <h3>Front-End Developer</h3>
             <p>As a dedicated and passionate frontend developer, I am eager to embark on a dynamic career where I can leverage my skills in HTML, CSS, and JavaScript to create user-
                 friendly web applications. I am seeking a challenging and growth-oriented environment where I can apply my academic knowledge and hands-on experience.
             </p>
-            <div class="icon">
+            <div className="icon">
                 <a href="https://www.facebook.com/login/identify/?ctx=recover" target="_blank"><img src={facebook} alt='fb.logo'/></a>
                 <a href="https://www.instagram.com/_.sai._08/" target="_blank"><img src={instagram}/></a>
                 <a href="https://www.linkedin.com/in/sairam-p-907a08275" target="_blank"><img src={linkin}/></a>
