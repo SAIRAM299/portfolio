@@ -3,6 +3,48 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@media (max-width: 768px) {
+    .head {
+        padding: 10px;
+    }
+
+    .home {
+        padding: 0 5%;
+    }
+
+    .dubby {
+        width: 100%;
+    }
+
+    .welcome {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .welcome h1 {
+        font-size: 40px;
+    }
+
+    .welcome h3 {
+        font-size: 30px;
+        background-position: 0 0;
+        -webkit-text-stroke: 0.3px #fff;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .head{
     position: fixed;
