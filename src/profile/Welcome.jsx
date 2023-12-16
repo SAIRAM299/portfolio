@@ -5,6 +5,7 @@ import facebook from './assets/fb.png'
 import instagram from './assets/ins.png'
 import github from './assets/gh.png'
 import linkin from './assets/lin.png'
+import resume from './assets/my Resume.pdf'
 
 export default function Welcome(){
     return (
@@ -35,7 +36,7 @@ export default function Welcome(){
                 <a href="https://www.linkedin.com/in/sairam-p-907a08275" target="_blank"><img src={linkin}/></a>
                 <a href="https://github.com/SAIRAM299" target="_blank"><img src={github}/></a>
             </div>
-            <a href="./assets/my Resume.pdf" target="_blank" class="button">RESUME</a>
+            <a href={resume} target="_blank" class="button">RESUME</a>
         </div>
     </section>
 
