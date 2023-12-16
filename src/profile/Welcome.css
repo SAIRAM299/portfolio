@@ -7,6 +7,10 @@
     .head {
         padding:10px;
     }
+    .head h1{
+font-size: 2em;
+        max-width: 100%;
+    }
     .navi a{
         max-width: 100%;
     }
