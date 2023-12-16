@@ -5,11 +5,8 @@
 }
 @media (max-width: 768px) {
     .head {
-       
-    }
-    .sai h1{
-font-size: 2em;
-        max-width: 100%;
+        padding:20px;
+        
     }
     .navi a{
         max-width: 100%;
