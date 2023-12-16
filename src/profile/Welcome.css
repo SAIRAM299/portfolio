@@ -6,7 +6,17 @@
 @media (max-width: 768px) {
     .head {
         padding: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+.navi{
+    margin-top: 10px;
+}
+
+.navi a{
+    margin: 0%;
+}
 
     .home {
         padding: 0 5%;
@@ -22,7 +32,7 @@
     }
 
     .welcome h1 {
-        font-size: 40px;
+        font-size: 3em;
     }
 
     .welcome h3 {
@@ -50,7 +60,7 @@
     position: fixed;
     top: 0%;
     left: 0%;
-    width: 100%;
+    width:100%;
     padding: 20px 10% ;
     display: flex;
     background-color:transparent;
@@ -179,6 +189,8 @@ z-index:100;
  }
 
  .dubby img{
+    
     position: relative;
-    max-height:250px;
+    max-height:100%;
+    height: 80%;
  }
