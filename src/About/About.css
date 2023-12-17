@@ -1,0 +1,43 @@
+*{
+    background: black;
+}
+.contain{
+ display: flex;
+}
+.title h1{
+    margin-left: 1%;
+   color: #00abf0;
+}
+
+
+.title{
+   width: 100%;
+}
+
+.title li{
+    color: #fff;
+    list-style: none;
+    margin-left: 10%;
+    padding-top: 3%;
+    
+}
+.title a{
+    text-decoration: none;
+    color:skyblue;
+}
+.title a:hover{
+    color:#00abf0;
+    box-shadow: 0 0 10px #00abf0;
+
+}
+ .contain img{
+    width:80%;
+    height:80%;
+    box-shadow: 0 0 50px #00abf0;
+ }
+ .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }

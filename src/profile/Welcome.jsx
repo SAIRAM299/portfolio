@@ -7,6 +7,7 @@ import github from './assets/gh.png'
 import linkin from './assets/lin.png'
 import resume from './assets/my Resume.pdf'
 
+
 export default function Welcome(){
     return (
         <div className='contain'>
@@ -31,7 +32,7 @@ export default function Welcome(){
                 friendly web applications. I am seeking a challenging and growth-oriented environment where I can apply my academic knowledge and hands-on experience.
             </p>
             <div className="icon">
-                <a href="https://www.facebook.com/login/identify/?ctx=recover" target="_blank"><img src={facebook} alt='fb.logo'/></a>
+                <a href="https://www.facebook.com/profile.php?id=100016111265582" target="_blank"><img src={facebook} alt='fb.logo'/></a>
                 <a href="https://www.instagram.com/_.sai._08/" target="_blank"><img src={instagram}/></a>
                 <a href="https://www.linkedin.com/in/sairam-p-907a08275" target="_blank"><img src={linkin}/></a>
                 <a href="https://github.com/SAIRAM299" target="_blank"><img src={github}/></a>
