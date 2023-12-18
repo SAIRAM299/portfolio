@@ -70,7 +70,7 @@
     }
     .contnav a{
       padding: 5%;
-      margin-left:40%;
+      margin-left:35%;
     }
     .contnav{
       display: flex;
@@ -79,9 +79,10 @@
     }
   
     .title li {
+      margin-top: 4%;
       margin-left: 10%;
       text-align: left;
-      padding: 3%;
+      padding: 4%;
     }
     .cont{
         margin-left: 10%;
