@@ -14,7 +14,7 @@ export default function Welcome(){
             <header className="head">
        <a href="" className="sai"> <h1>SAIRAM P</h1></a>
         <nav className="navi">
-            <a href="" class="homy">HOME</a>
+            <a class="homy">HOME</a>
             <a href="">CONTACT</a>
             <a href="">PROJECTS</a>
             <a href="">EDUCATION</a>

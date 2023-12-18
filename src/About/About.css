@@ -1,8 +1,15 @@
-*{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
     background: black;
-}
+  }
 .contain{
  display: flex;
+ flex-direction: row;
+ align-items: center;
 }
 .title h1{
     margin-left: 1%;
@@ -32,7 +39,6 @@
 }
  .contain img{
     width:80%;
-    height:80%;
     box-shadow: 0 0 50px #00abf0;
  }
  .contain{
@@ -41,3 +47,16 @@
     align-items: center;
     width: 100%;
  }
+ @media (max-width: 760px) {
+    .contain {
+      flex-direction: column; 
+    }
+  
+    .title li {
+      margin-left: 10%;
+      text-align: left;
+    }
+    .contain img{
+        margin-left: 10%;
+    }
+  }
