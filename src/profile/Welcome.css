@@ -25,17 +25,21 @@ padding-top: 5%;
     .home {
         max-width: 100%;
         display: flex;
-        flex-direction: column;
+       flex-direction: column;
+        margin-top: 80%;
         background: black;
-        margin-top: 100%;
     }
 
     .dubby {
         max-width: 100%;
+       background: black;
+       border: black;
     }
 
     .welcome {
-       max-width: 100%;
+        max-width: 100%;
+text-align: left;
+
     }
 
     .welcome h1 {
