@@ -7,13 +7,13 @@
    *{
     background: black;
    }
-   
-
     .head {
+
         padding:20px;
         max-width: 100%;
         display: flex;
-
+        flex-direction: column;
+        align-items: center;
     }
     .navi a{
         max-width: 100%;
@@ -30,11 +30,12 @@
     }
 
     .welcome {
-        max-width: 100%;
+       max-width: 100%;
     }
 
     .welcome h1 {
         font-size: 3em;
+        max-width: 100%;
     }
 
     .welcome h3 {
