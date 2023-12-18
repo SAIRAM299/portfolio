@@ -70,7 +70,12 @@
     }
     .contnav a{
       padding: 3%;
-      text-align: center;
+      margin-left:30%;
+    }
+    .contnav{
+      display: flex;
+      flex-direction: column;
+   
     }
   
     .title li {

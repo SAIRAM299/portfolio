@@ -5,6 +5,7 @@ import image from'./assets/contact.webp'
 export default function About() {
     return (
         <div>
+            
  <nav className="contnav">
             <a href=''>HOME</a>
             <a class="homy">CONTACT</a>
