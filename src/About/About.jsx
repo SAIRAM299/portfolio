@@ -5,7 +5,7 @@ import image from'./assets/contact.webp'
 export default function About() {
     return (
         <div>
- <nav className="navi">
+ <nav className="contnav">
             <a href=''>HOME</a>
             <a class="homy">CONTACT</a>
             <a href="">PROJECTS</a>
@@ -35,7 +35,7 @@ export default function About() {
 
             </div>
            <div className='contact'>
-<img src={image}/>
+<img src={image} className='cont'/>
            </div>
         </div>
         </div>

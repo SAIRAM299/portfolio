@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
   }
-  .navi{
+  .contnav{
     padding: 3%;
     margin-left: 5%;
   }
-  .navi a{
+  .contnav a{
     font-size: 18px;
     color: #fff;
     text-decoration: none;
@@ -16,8 +16,8 @@
     transition: .3s;
 }
 
-.navi a:hover,
-.navi a.homy{
+.contnav a:hover,
+.contnav a.homy{
     color: #00abf0;
 }
   body{
@@ -54,7 +54,7 @@
     box-shadow: 0 0 10px #00abf0;
 
 }
- .contain img{
+ .cont{
     width:80%;
     box-shadow: 0 0 50px #00abf0;
  }
@@ -68,7 +68,7 @@
     .contain {
       flex-direction: column; 
     }
-    .navi a{
+    .contnav a{
       padding: 3%;
       text-align: center;
     }
@@ -76,8 +76,9 @@
     .title li {
       margin-left: 10%;
       text-align: left;
+      padding: 3%;
     }
-    .contain img{
+    .cont{
         margin-left: 10%;
     }
   }

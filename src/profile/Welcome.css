@@ -16,17 +16,16 @@
         align-items: center;
     }
     .navi a{
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-padding-top: 5%;
+         max-width: 100%; 
+       display: flex;
+       flex-direction: column;
+       padding:10%;
     }
     section.home {
-       
+       margin-top: 5%;
         max-width: 100%;
         display: flex;
        flex-direction: column;
-        margin-top: 80%;
         height: 0vh;
         background: linear-gradient(-90deg, black 100%, #00abf0 0%);
         padding: 0 0;
