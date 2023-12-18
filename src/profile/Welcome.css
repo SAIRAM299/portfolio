@@ -59,9 +59,9 @@ padding-top: 5%;
         text-align: center;
     }
 
-   .welcom button{
+   .button{
     max-width: 100%;
-    text-align: center;
+    text-align: left;
    }
 
 }

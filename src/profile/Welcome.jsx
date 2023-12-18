@@ -37,7 +37,7 @@ export default function Welcome(){
                 <a href="https://www.linkedin.com/in/sairam-p-907a08275" target="_blank"><img src={linkin}/></a>
                 <a href="https://github.com/SAIRAM299" target="_blank"><img src={github}/></a>
             </div>
-            <a href={resume} target="_blank" class="button">RESUME</a>
+            <a href={resume} target="_blank" className="button">RESUME</a>
         </div>
     </section>
 
