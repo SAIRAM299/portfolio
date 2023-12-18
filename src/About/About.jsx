@@ -4,7 +4,17 @@ import image from'./assets/contact.webp'
 
 export default function About() {
     return (
+        <div>
+ <nav className="navi">
+            <a href=''>HOME</a>
+            <a class="homy">CONTACT</a>
+            <a href="">PROJECTS</a>
+            <a href="">EDUCATION</a>
+            <a href="">INTERNS</a>
+        </nav>
+
         <div className='contain'>
+
             <div className='title'>
             <h1>CONTACT INFO</h1>
                <ul>
@@ -27,6 +37,7 @@ export default function About() {
            <div className='contact'>
 <img src={image}/>
            </div>
+        </div>
         </div>
     );
 }

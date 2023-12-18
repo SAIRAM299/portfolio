@@ -3,6 +3,23 @@
     margin: 0;
     padding: 0;
   }
+  .navi{
+    padding: 3%;
+    margin-left: 5%;
+  }
+  .navi a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5%;
+    transition: .3s;
+}
+
+.navi a:hover,
+.navi a.homy{
+    color: #00abf0;
+}
   body{
     background: black;
   }
@@ -50,6 +67,10 @@
  @media (max-width: 760px) {
     .contain {
       flex-direction: column; 
+    }
+    .navi a{
+      padding: 3%;
+      text-align: center;
     }
   
     .title li {
